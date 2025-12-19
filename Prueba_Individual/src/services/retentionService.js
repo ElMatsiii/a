@@ -1,10 +1,10 @@
-import { retentionApi } from '../api/apiRetencion.js';
+import { retentionApi } from '../api/retentionApi.js';
 import {
   calculateRetentionByYear,
   calculateRetentionByProgram,
   extractPrograms,
   extractYears
-} from '../utils/calculations';
+} from '../utils/calculations.js';
 
 // Cache para evitar cargar el JSON múltiples veces
 let cachedData = null;
